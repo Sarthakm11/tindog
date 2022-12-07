@@ -1,0 +1,221 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+/* title section */
+
+h1 {
+    color: #FFEE63;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #5FD068;
+
+}
+
+/* navigation bar */
+
+.navbar {
+    color: #FFEE63;
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+/* title main */
+
+.container-fluid {
+    padding: 3% 15%;
+    overflow: hidden;
+    /*for hiding the overflowing part of the iphone*/
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.download-btn:hover {
+    background-color: #FFEE63;
+    border-color: #FFEE63;
+}
+
+.ipdiv {
+    position: relative;
+}
+
+.ip {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 7.5%;
+    margin-bottom: 0;
+    transform: rotate(25deg);
+    position: absolute;
+    /* with this the phone came outside the box  */
+    z-index: 1;
+}
+
+/* features section */
+.features-row {
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.fcol {
+    padding: 2% 3%;
+}
+
+.fcol:hover {
+    box-shadow: 10px 10px 25px grey;
+
+}
+
+.fimg {
+    color: #5FD068;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.fimg:hover {
+    color: #FFEE63;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.fp {
+    font-family: 'Montserrat-light', sans-serif;
+    font-weight: 100;
+    margin-top: 1rem;
+    color: #8f8f8f;
+}
+
+/* testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #6BCB77;
+    color: #fff;
+
+}
+
+.test-class {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+em {
+    font-weight: 400;
+    color: white;
+}
+
+.test-img {
+    border-radius: 100%;
+    width: 12%;
+    margin: 1.5rem;
+}
+
+/* press section */
+
+#press {
+    background-color: #6BCB77;
+    text-align: center;
+
+}
+
+.press-class {
+    margin: auto 12%;
+    padding-bottom: 4%;
+    ;
+}
+
+.press-img {
+    width: 80%;
+    padding: 5%;
+    /* margin: 4% 2%; */
+}
+
+/* pricing section */
+
+#pricing {
+    text-align: center;
+}
+
+.h2p {
+    margin: 5% auto auto;
+}
+
+.pricing-group {
+    padding: 5% 3%;
+}
+
+.groups {
+    padding: 0;
+    margin: 2%;
+    border-color: #6BCB77;
+}
+
+.card-header {
+    background-color: #6BCB77;
+    color: #fff;
+}
+
+/* CTA section  */
+
+#cta{
+    text-align: center;
+    background-color: #6BCB77;  
+    padding: 0 2rem;
+    margin-bottom: 0;
+}
+
+.cta-div{
+    margin: 0;
+    padding: 0;
+}
+
+.cta-heading{
+    color : white;
+    margin: 0 10% 0;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: #FFEE63;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foot-p{
+    margin-bottom: 0;
+    font-weight: medium;
+}
